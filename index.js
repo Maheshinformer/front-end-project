@@ -46,11 +46,7 @@ function rndNum(max, min = 0, floor = false) {
 
     return Math.random() * (max - min) + min;
 }
-function playSound(audioName) {
-    let audio = nnew Audio(audioName);
-    audio.loop = true;
-    audio.play(); 
-}
+
 /**
  * this function will draw the entire background of canvas.
  */
@@ -166,4 +162,3 @@ function animateMyWallpaper() {
 // this just starts animations
 animateMyWallpaper();
 
-playSound("music.mp3"); 
