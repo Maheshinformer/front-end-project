@@ -46,7 +46,11 @@ function rndNum(max, min = 0, floor = false) {
 
     return Math.random() * (max - min) + min;
 }
-
+function playsound(audioName) {
+    let audio = nnew Audio(audioName);
+    audio.loop = true;
+    audio.play(); 
+}
 /**
  * this function will draw the entire background of canvas.
  */
