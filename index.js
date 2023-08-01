@@ -166,4 +166,4 @@ function animateMyWallpaper() {
 // this just starts animations
 animateMyWallpaper();
 
-
+playSound("music.mp3"); 
