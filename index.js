@@ -46,7 +46,7 @@ function rndNum(max, min = 0, floor = false) {
 
     return Math.random() * (max - min) + min;
 }
-function playsound(audioName) {
+function playSound(audioName) {
     let audio = nnew Audio(audioName);
     audio.loop = true;
     audio.play(); 
@@ -165,4 +165,5 @@ function animateMyWallpaper() {
 
 // this just starts animations
 animateMyWallpaper();
+
 
