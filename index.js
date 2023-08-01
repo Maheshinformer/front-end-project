@@ -161,4 +161,4 @@ function animateMyWallpaper() {
 
 // this just starts animations
 animateMyWallpaper();
-<embed src="music.mp3" autostart="true" loop="true">
+
